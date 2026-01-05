@@ -1,0 +1,20 @@
+{
+  "name": "claude-tiktok-skill",
+  "version": "1.0.0",
+  "description": "TikTok video scraper skill for Claude Code",
+  "main": "tiktok.js",
+  "scripts": {
+    "test": "node tiktok.js"
+  },
+  "keywords": [
+    "tiktok",
+    "scraper",
+    "claude-code",
+    "skill"
+  ],
+  "author": "dingbohan89-coder",
+  "license": "MIT",
+  "dependencies": {
+    "playwright": "^1.40.0"
+  }
+}

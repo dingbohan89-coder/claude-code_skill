@@ -1,0 +1,13 @@
+{
+  "name": "tiktok-skill",
+  "version": "1.0.0",
+  "description": "TikTok 爬虫 Skill",
+  "main": "index.js",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.25.1",
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0-rc.12",
+    "playwright": "^1.57.0",
+    "zod": "^4.3.2"
+  }
+}

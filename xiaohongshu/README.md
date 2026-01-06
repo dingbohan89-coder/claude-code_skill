@@ -40,7 +40,7 @@
 ```bash
 # Git Bash
 cd ~/.claude/skills
-git clone https://github.com/dingbohan89-coder/claude-skills.git
+git clone https://github.com/仓库名.git
 cd claude-skills/xiaohongshu
 ```
 
@@ -263,3 +263,4 @@ npx playwright install chromium
 ## 许可证
 
 MIT License - 详见 LICENSE 文件
+

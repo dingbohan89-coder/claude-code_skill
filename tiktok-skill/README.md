@@ -58,7 +58,7 @@ https://www.bilibili.com/video/BV1N5itB5ED3/?share_source=copy_web&vd_source=588
 
 ```bash
 cd ~/.claude/skills
-git clone https://github.com/dingbohan89-coder/claude-skills.git
+git clone https://github.com/仓库名.git
 ```
 
 ### 方法二：手动安装
@@ -84,7 +84,7 @@ git clone https://github.com/dingbohan89-coder/claude-skills.git
 我需要配置 TikTok Video Scraper Skill。请帮我：
 
 1. 检查 ~/.claude/skills/tiktok-skill/ 目录是否存在
-2. 如果不存在，从 GitHub 克隆：https://github.com/dingbohan89-coder/claude-skills.git
+2. 如果不存在，从 GitHub 克隆：https://github.com/仓库名.git
 3. 进入项目目录并运行 npm install
 4. 运行 npx playwright install chromium
 5.将这个skill必须导入到你的可用的skill目录里，一定确保可以被识别到且被成功调用
@@ -97,7 +97,7 @@ git clone https://github.com/dingbohan89-coder/claude-skills.git
 ### 方式二：简化版提示词
 
 ```
-帮我安装和配置 TikTok Video Scraper Skill。项目地址：https://github.com/dingbohan89-coder/claude-skills.git
+帮我安装和配置 TikTok Video Scraper Skill。项目地址：https://github.com/仓库名.git
 ```
 
 **Claude Code 会自动完成：**

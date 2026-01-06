@@ -236,6 +236,7 @@ node scripts/scrape.js "https://www.tiktok.com/@username/video/123456"
 2. 视频为私密内容 → 无法访问
 3. Playwright 未安装 → 运行 `npx playwright install chromium`
 4. 未使用 Git Bash → 切换到 Git Bash 重试
+5. 网络问题 → 更换其他节点
 
 ### 命令执行失败
 

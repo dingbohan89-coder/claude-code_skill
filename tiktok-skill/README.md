@@ -87,6 +87,7 @@ git clone https://github.com/dingbohan89-coder/claude-skills.git
 2. 如果不存在，从 GitHub 克隆：https://github.com/dingbohan89-coder/claude-skills.git
 3. 进入项目目录并运行 npm install
 4. 运行 npx playwright install chromium
+5.将这个skill必须导入到你的可用的skill目录里，一定确保可以被识别到且被成功调用
 5. 告诉我如何导入 TikTok cookies（详细步骤）
 6. 创建一个测试文件来验证配置是否成功
 
@@ -172,7 +173,7 @@ npx playwright install chromium
 ### 在 Claude Code 中调用
 
 ```
-爬取 https://www.tiktok.com/@username/video/123456 的数据
+爬取 https://www.tiktok.com/@username/video/123456 的数据（首次运行此技能需先运行登录脚本，再进行页面加载及爬取）
 ```
 
 ### 直接运行脚本
